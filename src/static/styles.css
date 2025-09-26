@@ -1,3 +1,26 @@
+/* Toolbar for activity filters and sorting */
+#activity-toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+#activity-search {
+  flex: 2;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#activity-sort {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
